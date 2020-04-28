@@ -50,9 +50,9 @@ composer global require 'chunpat/package-builder' --prefer-source
 composer require phpunit/phpunit mockery/mockery
 ```
 
-> 测试啥
+> 测试什么
 
-** 全方位测试，如参数测试，逻辑测试，异常测试等用例**
+**全方位测试，如参数测试，逻辑测试，异常测试等用例**
 
 执行命令
 ```
@@ -62,7 +62,7 @@ composer require phpunit/phpunit mockery/mockery
 
 ```
 
-** 这里涉及到两个工具一个phpunit和mockery，链接在下 **
+**这里涉及到两个工具一个phpunit和mockery，链接在下**
 https://phpunit.readthedocs.io/zh_CN/latest/
 http://docs.mockery.io/en/latest/
 
@@ -93,15 +93,15 @@ http://docs.mockery.io/en/latest/
 
 ## Travis-CI做自动化测试
 
-待补充
-https://travis-ci.org/
+待补充[点我](https://travis-ci.org/)
+
+## Style CI 做代码风格检测
+
+待补充[点我](https://github.styleci.io/)
 
 ## 状态图标
 
 待补充
-
-## Style CI
-
 
 ## 参考资料
 * 1、[LX2 PHP 扩展包实战教程 - 从入门到发布](https://learnku.com/courses/creating-package/)
