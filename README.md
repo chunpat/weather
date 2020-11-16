@@ -37,8 +37,8 @@ composer global require 'chunpat/package-builder' --prefer-source
 # 配置包路径，注意，这里 `../weather` 为相对路径，不要弄错了
 $ composer config repositories.weather path ../weather 
 
-# 配置包路径，注意，这里 `../weather` 为相对路径，不要弄错了
-$ composer config repositories.weather path ../weather 
+# 安装扩展包  这里  `dev-master`  中的 dev 指该分支下最新的提交，master 是指定的包中的分支名
+$ composer require overtrue/weather:dev-master
 ```
 
 ## src目录下写业务逻辑和异常或错误处理
