@@ -30,6 +30,17 @@ composer global require 'chunpat/package-builder' --prefer-source
 ~/.composer/vendor/chunpat/package-builder/bin/package-builder build ./weather
 ```
 
+## 创建测试项目
+
+创建测试项目或引入已有项目
+```
+# 配置包路径，注意，这里 `../weather` 为相对路径，不要弄错了
+$ composer config repositories.weather path ../weather 
+
+# 配置包路径，注意，这里 `../weather` 为相对路径，不要弄错了
+$ composer config repositories.weather path ../weather 
+```
+
 ## src目录下写业务逻辑和异常或错误处理
 
 参考代码
